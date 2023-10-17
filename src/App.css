@@ -1,0 +1,70 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.createDiv {
+  width: 450px;
+}
+.createForm {
+  display: flex;
+  flex-direction: column;
+}
+.createLabel {
+  margin: 10px 0px;
+}
+.createInput {
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+.createButton {
+  margin: 10px 0px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: green;
+  border: solid 1px green;
+  border-radius: 10px;
+}
+.listDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.showDiv {
+  text-align: center;
+  border: solid 1px green;
+  border-radius: 20px;
+  padding: 20px 100px;
+  margin: 20px;
+  width: 200px;
+}
+.deleteButton {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 60px;
+  padding: 5px;
+  font-size: 15px;
+  margin: 5px;
+}
+.updateButton {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  padding: 5px;
+  font-size: 15px;
+  margin: 5px;
+}
+.editDiv {
+  width: 100%;
+  text-align: start;
+}
+.updateButton2 {
+  background-color: blueviolet;
+  border: none;
+}
